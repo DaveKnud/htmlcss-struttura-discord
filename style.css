@@ -29,6 +29,17 @@ color: white;
     padding: 10px;
 }
 
+/* Hero */
+.hero{color: white;
+    height: 400px;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 
 /* Debug rules
 
