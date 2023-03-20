@@ -15,6 +15,14 @@ padding-top: 1%;}
 #logo{font-size: 40px;
     display: flex;}
 
+h1{
+        font-size: 56px;
+    }
+
+p{
+    font-size: 25px;
+}
+
     
 .menu{display: flex;
 list-style: none;
@@ -23,28 +31,81 @@ flex-basis: 40%;
 color: white;
 }
 
-.botton-white{
+.botton-white,.botton-white-end{
     background-color: white;
     border-radius: 20px;
     padding: 10px;
+    color: black;
+    margin-left: 2%;
+   
 }
+
 
 /* Hero */
 .hero{color: white;
     height: 400px;
     padding-left: 20%;
     padding-right: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    padding-top: 7%;
+    text-align: center;
+}
+
+#paragrafo-hero{
+    margin-bottom: 3%;
 }
 
 
-/* Debug rules
 
 section{
+    height: 600px;
+    
+} 
+
+.sec1,.sec2,.sec3,.sec4{
+    padding: 10%;
+    padding-left: 15%;
+    display: flex;
+    max-width: 100%;
+    overflow: auto;
+
+}
+
+.sec2{
+    flex-direction: row-reverse;
+    padding-left: 0%;
+}
+
+
+.sec4{flex-direction: column;
+height: 1000px;
+text-align: center;}
+
+
+.titoli-sezioni{
+    padding-left: 20%;
+    
+   }
+
+   .sottotitolo-sezione{
+    margin-top: 20px;
+   }
+
+   h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 5%;
+   }
+
+
+  /* Regole debug */
+   section{
     background-color: brown;
-    height: 500px;
     border: 1px solid black;
-} */
+} 
+
+
+
+
+    
+
+
