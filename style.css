@@ -5,43 +5,34 @@
 }
 
 header{background-color: blue;
- height: 500px;}
+    height: 500px;
+margin-bottom: 30px;}
 
-.nav,.footer{display: flex;
+.nav{display: flex;
+    
 justify-content: space-evenly;
 align-items: center;
-padding-top: 1%;}
+padding-top: 2%;}
 
 #logo{font-size: 40px;
     display: flex;}
 
-h1{
-        font-size: 56px;
-    }
+    .menu{display: flex;
+        list-style: none;
+        justify-content: space-between;
+        flex-basis: 40%;
+        color: white;
+        }
+        
+        .botton-white{
+            background-color: white;
+            border-radius: 20px;
+            padding: 10px;
+            color: black;
+            margin-left: 2%;
+           }
 
-p{
-    font-size: 25px;
-}
-
-    
-.menu{display: flex;
-list-style: none;
-justify-content: space-between;
-flex-basis: 40%;
-color: white;
-}
-
-.botton-white,.botton-white-end{
-    background-color: white;
-    border-radius: 20px;
-    padding: 10px;
-    color: black;
-    margin-left: 2%;
-   
-}
-
-
-/* Hero */
+           /* Hero */
 .hero{color: white;
     height: 400px;
     padding-left: 20%;
@@ -54,67 +45,67 @@ color: white;
     margin-bottom: 3%;
 }
 
-
-
-section{
-    height: 600px;
-    
-} 
-
-.sec1,.sec2,.sec3,.sec4{
-    padding: 10%;
-    padding-left: 15%;
+footer{
     display: flex;
-    max-width: 100%;
-    overflow: auto;
-
-}
-
-.sec2{
-    flex-direction: row-reverse;
-    padding-left: 0%;
-}
-
-
-.sec4{flex-direction: column;
-height: 1000px;
-text-align: center;}
-
-
-.titoli-sezioni{
-    padding-left: 20%;
-    
-   }
-
-   .sottotitolo-sezione{
-    margin-top: 20px;
-   }
-
-   h2{
-    font-size: 40px;
-    text-align: center;
-    padding-top: 5%;
-   }
-
-   footer{
-    background-color: blueviolet;
     height: 300px;
-   }
-
-   .footer{
-    
-   }
+    background-color: aquamarine;
+    justify-content: space-evenly;
+}
 
 
-  /* Regole debug */
-   section{
+.main-container1, .main-reverse2,.main-container3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.container-left{
+    width: 49%;
+}
+
+.container-right{
+    width: 49%;
+}
+
+.main-reverse2{
+    flex-direction: row-reverse;
+    background-color: rgb(192, 192, 192);
+}
+
+.col1,.col2{
+    height: 300px;
+}
+.col1{
+    width: 30%;
+}
+.col2{
+    width: 10%;
+}
+
+
+/* DEBUG */
+.container-right{
     background-color: brown;
+    height: 500px;
     border: 1px solid black;
-} 
+}
 
+.container-left{
+    background-color: rgb(0, 255, 30);
+    height: 500px;
+    border: 1px solid
+    black;
+}
 
+.col1{
+    background-color: rosybrown;
+    height: 300px;
+    border: 1px solid
+    black;
+}
 
-
-    
-
-
+.col2{
+    background-color: rosybrown;
+    border: 1px solid
+    black;
+}
